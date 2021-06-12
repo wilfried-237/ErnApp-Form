@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(84, 61%, 71%);
+}
+.main{
+   text-align: center;
+}
+.container{
+    border: 1px solid purple;
+    width: 300px;
+    height: 510px;
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 20px 60px;
+    box-shadow: 10px -3px 10px purple, 10px 3px 10px purple;
+}
+form{
+    text-align: center;
+}
+h1{
+    font-family: 'Satisfy', cursive;
+    color: red;
+    margin: 30px;
+    font-weight: bold;
+}
+input[type=text], input[type=password] {
+    padding: 12px;
+    border-radius: 220px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    background-color: #e0e0e0;
+}
+hr{
+    height: 1px;
+    color: #808080;
+    background-color: lightslategray;
+}
+input::placeholder {
+    font-size: 18px;
+    color: hsl(0, 3%, 23%);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2px;
+}
+
+.btn, .login {
+    width: 180px;
+    padding: 3px;
+    border-radius: 200px;
+    font-size: 18px;
+    font-weight: 400px;
+    background-color: lightgrey;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name{
+    margin-top: 40px;
+}
+.password{
+    margin-top: 30px;
+}
+.login{
+    margin-top: 40px;
+}
+.btn, .name, .password, .login {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #5c5757;
+}
+
+
+
+
+
+
+
+
